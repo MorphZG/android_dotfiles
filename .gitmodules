@@ -1,0 +1,6 @@
+# run the command inside working directory:
+# git submodule add <link_to_repository>
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+

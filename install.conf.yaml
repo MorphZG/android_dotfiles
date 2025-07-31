@@ -1,0 +1,33 @@
+# https://github.com/anishathalye/dotbot
+- defaults:
+    link:
+      type: symlink
+      create: true # When true, create parent directories to the link as needed. (default: false)
+      relink: true # Removes the old link if it's a symlink (default: false)
+
+# Check an array of directories for dead or broken links and remove them.
+- clean:
+    ~/
+    ~/.config
+
+# Specify the location of symbolic link, followed by the actual file or target directory.
+# all important dotfiles should be inside same `~/.dotfiles` directory
+# symlinks pointing to them will be copied to separat dir for each app.
+- link:
+    $HOME/.gitconfig: $HOME/.dotfiles/gitconfig/.gitconfig
+    $HOME/.vimrc: $HOME/.dotfiles/vimrc/.vimrc
+    $HOME/.config/alacritty.toml: $HOME/.dotfiles/alacritty/.config/alacritty.toml
+    $HOME/.fzf.zsh: $HOME/.dotfiles/fzf/.fzf.zsh
+    $HOME/.config/posting/config.yaml: $HOME/.dotfiles/posting/.config/posting/config.yaml
+    $HOME/.config/ranger/: $HOME/.dotfiles/ranger/.config/ranger/
+    $HOME/.config/superfile: $HOME/.dotfiles/superfile/.config/superfile/
+    $HOME/.config/tmux/tmux.conf: $HOME/.dotfiles/tmux/.config/tmux/tmux.conf
+    $HOME/.oh-my-zsh/custom/: $HOME/.dotfiles/zsh/.oh-my-zsh/custom/
+    $HOME/.oh-my-zsh/templates/: $HOME/.dotfiles/zsh/.oh-my-zsh/templates/
+    $HOME/.zshrc: $HOME/.dotfiles/zsh/.zshrc
+    $HOME/.config/nvim/init.lua: $HOME/.dotfiles/nvim/.config/nvim/init.lua
+
+# Chain of commands to run on install. Optionally pass in an array with the command and
+# a short description as a second element.
+- shell: [git submodule update --init --recursive, installing submodules]
+

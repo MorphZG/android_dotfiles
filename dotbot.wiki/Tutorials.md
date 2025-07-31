@@ -1,0 +1,5 @@
+- [Managing Your Dotfiles](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/): a blog post by the author of Dotbot on how dotfiles should be organized
+- [Dotfiles from Start to Finish-ish](https://www.udemy.com/course/dotfiles-from-start-to-finish-ish/): a 4-hour course on dotfiles, dotfiles organization, Dotbot, and Homebrew
+- [Bootstrap your Dotfiles with dotbot](https://www.elliotdenolf.com/posts/bootstrap-your-dotfiles-with-dotbot): a short blog post on getting started with Dotbot
+- [Managing dotfiles and ZSH with dotbot and antigen](https://josnun.github.io/posts/managing-dotfiles-and-zsh-with-dotbot-and-antigen/): an introduction to Dotbot and Antigen
+- [My Overkill Dotfiles Configuration (Featuring Automated Install and Test Pipelines)](https://az.rip/informational/2019/01/13/dotfiles.html)
