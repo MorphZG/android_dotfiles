@@ -10,17 +10,17 @@
 #
 # Setup fzf
 # ---------
-if [[ ! "$PATH" == *$GIT_CLONES/.fzf/bin* ]]; then
-  PATH="${PATH:+${PATH}:}$GIT_CLONES/.fzf/bin"
+if [[ ! "$PATH" == *$DOTFILES/.fzf/bin* ]]; then
+  PATH="${PATH:+${PATH}:}$DOTFILES/.fzf/bin"
 fi
 
 # Auto-completion
 # ---------------
-#source "$GIT_CLONES/fzf/shell/completion.zsh"
+#source "$DOTFILES/fzf/shell/completion.zsh"
 
 # Key bindings
 # ------------
-#source "$GIT_CLONES/fzf/shell/key-bindings.zsh"
+#source "$DOTFILES/fzf/shell/key-bindings.zsh"
  
 
 # personal configuration

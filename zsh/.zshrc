@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # run command $omz theme set <theme>; $omz theme list
-ZSH_THEME="bira" # set by `omz`
+ZSH_THEME="muse" # set by `omz`
 #bira duellj fletcherm muse sonicradish josh
 
 # Set list of themes to pick from when loading at random
