@@ -12,7 +12,7 @@ mkdir -p "$GIT_CLONES"
 # --- Package Installations ---
 echo "Installing base packages..."
 pkg update
-pkg install -y git zsh curl tmux ranger nodejs openssh
+pkg install -y git zsh curl wget tmux ranger nodejs openssh
 
 # Install Oh My Zsh (this will also set zsh as the default shell)
 # The installer script handles the chsh part.
@@ -44,14 +44,6 @@ if [ ! -d "$HOME/.fzf" ]; then
 else
     echo "fzf is already installed."
 fi
-
-# Install Nerd Fonts
-echo "Downloading Nerd Fonts downloader..."
-wget --output-document "$GIT_CLONES/nerdfont_downloader.sh" https://raw.githubusercontent.com/mcarvalho1/Nerd-fonts-Downloader-Script/master/nf_downloader.sh
-chmod +x "$GIT_CLONES/nerdfont_downloader.sh"
-echo "Running Nerd Fonts downloader. This might be interactive."
-"$GIT_CLONES/nerdfont_downloader.sh"
-
 
 # --- Dotfiles Installation ---
 # ! Keep this at the bottom

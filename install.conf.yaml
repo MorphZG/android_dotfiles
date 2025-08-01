@@ -7,8 +7,7 @@
 
 # Check an array of directories for dead or broken links and remove them.
 - clean:
-    ~/
-    ~/.config
+    $HOME/.config
 
 # Specify the location of symbolic link, followed by the actual file or target directory.
 # all important dotfiles should be inside same `~/.dotfiles` directory
