@@ -12,7 +12,7 @@ mkdir -p "$GIT_CLONES"
 # --- Package Installations ---
 echo "Installing base packages..."
 pkg update
-pkg install -y git zsh curl wget tmux ranger nodejs openssh
+pkg install -y git zsh curl wget tmux ranger nodejs openssh stow
 
 # Install Oh My Zsh (this will also set zsh as the default shell)
 # The installer script handles the chsh part.
