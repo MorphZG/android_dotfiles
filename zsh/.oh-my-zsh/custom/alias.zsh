@@ -3,7 +3,7 @@
 # ================================
 
 # apps
-alias cat="batcat"
+alias cat="bat"
 alias rng="ranger"
 alias showinfo="neofetch"
 alias md="frogmouth"
