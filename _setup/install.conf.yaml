@@ -15,10 +15,10 @@
 - link:
     $HOME/.gitconfig: $HOME/.dotfiles/gitconfig/.gitconfig
     $HOME/.vimrc: $HOME/.dotfiles/vimrc/.vimrc
-    $HOME/.fzf.zsh: $HOME/.dotfiles/fzf/.fzf.zsh
     $HOME/.config/ranger/: $HOME/.dotfiles/ranger/.config/ranger/
     $HOME/.config/tmux/tmux.conf: $HOME/.dotfiles/tmux/.config/tmux/tmux.conf
     $HOME/.oh-my-zsh/custom/: $HOME/.dotfiles/zsh/.oh-my-zsh/custom/
+    $HOME/.oh-my-zsh/templates/: $HOME/.dotfiles/zsh/.oh-my-zsh/templates/
     $HOME/.zshrc: $HOME/.dotfiles/zsh/.zshrc
     $HOME/.config/nvim/init.lua: $HOME/.dotfiles/nvim/.config/nvim/init.lua
 
