@@ -14,7 +14,7 @@ pkg autoclean
 # --- Package Installations ---
 echo "Installing base packages..."
 pkg update
-pkg install -y git zsh curl wget tmux ranger nodejs python git grep htop openssh stow mdbook glow
+pkg install -y git zsh curl wget tmux ranger nodejs python git grep htop openssh stow mdbook glow nala
 
 # Install Oh My Zsh (this will also set zsh as the default shell)
 # The installer script handles the chsh part.
