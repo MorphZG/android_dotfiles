@@ -12,10 +12,12 @@ alias gst="git status"
 
 # navigation
 alias dotfiles="cd $HOME/.dotfiles"
+alias gitclns="cd $HOME/git_clones"
+
 
 # basics
 alias ls="eza --icons"
-alias l="eza -lah --no-user --sort=modified --reverse --total-size" # total size of a directory (recursive)
+alias l="eza -lah --no-user --sort=modified --total-size" # total size of a directory (recursive)
 alias ll="eza -all --long --icons --no-user --tree --level=2 --total-size"
 alias llg="eza --all --long --icons --no-user --tree --level=2 --total-size --git-ignore"
 alias la="eza --all --icons"
