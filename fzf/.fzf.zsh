@@ -36,17 +36,17 @@ export FZF_DEFAULT_OPTS="--ansi"
 # find everything of type file
 export FZF_CTRL_T_COMMAND="fd --type file --color=always --hidden --exclude '.{cache,DS_Store,gem,git,npm,Trash}'"
 # preview selected file
-export FZF_CTRL_T_OPTS="--header 'search for files' --tmux 80% --preview '(highlight -O ansi -l {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200'"
+export FZF_CTRL_T_OPTS="--header 'search for files' --tmux 95% --preview '(highlight -O ansi -l {} 2> /dev/null || cat {} || tree -C {}) 2> /dev/null | head -200'"
 
 ## --- ctrl-r modification
 # disable sort by relevance, set chronological order
-export FZF_CTRL_R_OPTS="--header 'commands history' --no-sort --tmux 80%" 
+export FZF_CTRL_R_OPTS="--header 'commands history' --no-sort --tmux 95%" 
 
 ## --- alt-c modification
 # find everything of type directory
 export FZF_ALT_C_COMMAND="fd . --type directory --hidden"
 # use tree command for preview (can scroll with arrow keys)
-export FZF_ALT_C_OPTS="--header 'search for directories' --tmux 80% --preview 'tree -C {}'"
+export FZF_ALT_C_OPTS="--header 'search for directories' --tmux 95% --preview 'tree -C {}'"
 
 # positioned at the bottom of the file
 source <(fzf --zsh)
