@@ -9,17 +9,17 @@
 #
 # Setup fzf
 # ---------
-if [[ ! "$PATH" == */home/zoran/git_clones/fzf/bin* ]]; then
-  PATH="${PATH:+${PATH}:}/home/zoran/git_clones/fzf/bin"
+if [[ ! "$PATH" == *$GIT_CLONES/fzf/bin* ]]; then
+  PATH="${PATH:+${PATH}:}$GIT_CLONES/fzf/bin"
 fi
 
 # Auto-completion
 # ---------------
-source "/home/zoran/git_clones/fzf/shell/completion.zsh"
+source "$GIT_CLONES/fzf/shell/completion.zsh"
 
 # Key bindings
 # ------------
-source "/home/zoran/git_clones/fzf/shell/key-bindings.zsh"
+source "$GIT_CLONES/fzf/shell/key-bindings.zsh"
  
 
 # personal configuration
