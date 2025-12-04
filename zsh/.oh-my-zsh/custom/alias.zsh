@@ -13,6 +13,7 @@ alias gst="git status"
 # navigation
 alias dotfiles="cd $HOME/.dotfiles"
 alias gitclns="cd $HOME/git_clones"
+alias notes="cd $HOME/Documents/obsidian_vault"
 
 
 # basics
